@@ -38,3 +38,6 @@ sudo apt-get install ubuntu-tweak
 #git
 sudo apt-get update
 sudo apt-get install git-core
+
+#最後にupdate
+sudo apt-get update
