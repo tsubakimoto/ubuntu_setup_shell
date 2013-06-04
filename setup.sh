@@ -71,6 +71,5 @@ sudo ./configure
 sudo make
 sudo make install
 
-
 #最後にupdate
 sudo apt-get update
