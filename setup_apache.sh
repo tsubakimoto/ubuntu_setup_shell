@@ -33,4 +33,4 @@ sudo make
 sudo make install
 
 #update
-sudo apt-get update
+sudo apt-get -y update
