@@ -16,3 +16,25 @@ sudo apt-get remove unity-webapps-common xul-ext-websites-integration
 
 #Ubuntu Oneを削除する
 sudo apt-get remove ubuntuone-client python-ubuntuone-client python-ubuntuone-storageprotocol
+
+#タイトルバーのボタンを左から右側に移動させる
+dconf write /org/gnome/desktop/wm/preferences/button-layout '":minimize,maximize,close"'
+
+#日本語フォルダ名を英語表記にする
+env LANGUAGE=C LC_MESSAGES=C xdg-user-dirs-gtk-update
+
+#IME
+sudo apt-get install ibus-mozc
+
+#chromium
+sudo apt-get update
+sudo apt-get install chromium-browser
+
+#ubuntu-tweak
+sudo add-apt-repository ppa:tualatrix/ppa
+sudo apt-get update
+sudo apt-get install ubuntu-tweak
+
+#git
+sudo apt-get update
+sudo apt-get install git-core
